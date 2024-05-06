@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Friends">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:id="@+id/imageView2"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/top_wallpaper" />
+    <ImageView
+        android:layout_marginTop="150dp"
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:src="@drawable/img_7" />
+
+    <TextView
+        android:id="@+id/text"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="My Friends"
+        android:textSize="25dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/friendsRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/searchcard"
+        android:paddingLeft="15dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/searchcard"
+        android:layout_below="@id/text"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="20dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+        <SearchView
+            android:id="@+id/search_bar"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:queryBackground="@null"
+            android:iconifiedByDefault="false"
+            android:layout_below="@id/text"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
+</FrameLayout>

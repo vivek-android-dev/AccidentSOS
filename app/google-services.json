@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "450985791335",
+    "project_id": "accident-sos-ff676",
+    "storage_bucket": "accident-sos-ff676.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450985791335:android:8232c0e40698a7a61829c2",
+        "android_client_info": {
+          "package_name": "com.example.accidentsos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfwh1XVfaCgJHokLca4i15y65ThgujciE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

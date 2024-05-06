@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BioData">
+
+    <ImageView
+        android:id="@+id/btn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/backbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/top_wallpaper" />
+
+    <ImageView
+        android:layout_below="@+id/imageView2"
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile_icon" />
+        <EditText
+            android:layout_marginTop="30dp"
+            android:id="@+id/nameed"
+            android:layout_width="320dp"
+            android:background="@drawable/editprobg"
+            android:padding="10dp"
+            android:layout_height="45dp"
+            android:fontFamily="@font/inter_light"
+            android:drawableRight="@drawable/img_11"
+            android:layout_below="@id/imageView3"
+            android:hint="Name"
+            android:layout_centerHorizontal="true"
+
+            />
+        <EditText
+            android:id="@+id/gendered"
+            android:layout_width="320dp"
+            android:background="@drawable/editprobg"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/inter_light"
+            android:layout_below="@id/nameed"
+            android:drawableRight="@drawable/img_11"
+            android:hint="Gender"
+            android:layout_centerHorizontal="true"
+
+            />
+        <EditText
+            android:id="@+id/mobileed"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/inter_light"
+            android:background="@drawable/editprobg"
+            android:padding="10dp"
+            android:drawableRight="@drawable/img_11"
+            android:layout_below="@id/gendered"
+            android:hint="Mobile No"
+            android:layout_centerHorizontal="true"
+
+            />
+        <EditText
+            android:id="@+id/emailed"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/mobileed"
+            android:fontFamily="@font/inter_light"
+            android:background="@drawable/editprobg"
+            android:padding="10dp"
+            android:drawableRight="@drawable/img_11"
+            android:hint="Email"
+            android:layout_centerHorizontal="true"
+
+            />
+        <EditText
+            android:id="@+id/ageed"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editprobg"
+            android:padding="10dp"
+            android:fontFamily="@font/inter_light"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/emailed"
+            android:drawableRight="@drawable/img_11"
+            android:hint="Age"
+            android:layout_centerHorizontal="true"
+
+            />
+        <EditText
+            android:id="@+id/blooded"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editprobg"
+            android:padding="10dp"
+            android:fontFamily="@font/inter_light"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/ageed"
+            android:drawableRight="@drawable/img_11"
+            android:hint="Blood Group"
+            android:layout_centerHorizontal="true"
+
+            />
+        <EditText
+            android:id="@+id/locationed"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/editprobg"
+            android:padding="10dp"
+            android:fontFamily="@font/inter_light"
+            android:drawableRight="@drawable/img_11"
+            android:layout_below="@id/blooded"
+            android:hint="Location"
+            android:layout_centerHorizontal="true"
+
+            />
+
+        <Button
+            android:id="@+id/getStart"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/inter_medium"
+            android:text="Update"
+            android:layout_below="@id/locationed"
+            />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

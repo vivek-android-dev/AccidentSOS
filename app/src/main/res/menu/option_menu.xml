@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Notifications"
+        android:icon="@drawable/notify_icon"
+        android:id="@+id/notifications"
+        app:actionLayout="@layout/custom_notification_layout"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Options"
+    android:icon="@drawable/menu_btn"
+    android:id="@+id/options"/>
+    <item android:title="Logout"
+        android:icon="@drawable/img_5"
+        android:id="@+id/logout"
+        />
+    <item android:title="Exit"
+        android:icon="@drawable/back_button"
+        android:id="@+id/exit"/>
+
+
+</menu>
